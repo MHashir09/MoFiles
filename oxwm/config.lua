@@ -79,7 +79,7 @@ local blocks = {
     -- Kernel version
     oxwm.bar.block.shell({
         format = "システム  :    {}",
-        command = "echo 'Arch Linux'", -- Change with your OS name ig
+        command = "echo 'Fedora Linux'", -- Change with your OS name ig
         interval = 999999999,
         color = colors.fg,
         underline = false,
@@ -150,7 +150,7 @@ oxwm.set_layout("scrolling")
 -------------------------------------------------------------------------------
 
 -- Window borders
-oxwm.border.set_width(0)
+oxwm.border.set_width(1)
 oxwm.border.set_focused_color(colors.fg)
 oxwm.border.set_unfocused_color(colors.grey)
 
