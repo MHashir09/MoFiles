@@ -1,0 +1,80 @@
+# // -- Global Configuration -- //
+
+[global]
+
+# // -- Window Geometry -- //
+    width = 350
+    height = (0, 100)
+    offset = (15, 50)
+    padding = 15
+    frame_width = 1
+    corner_radius = 12
+
+# // -- Window Colors -- //
+    frame_color = "#5a5a5a"
+
+# // -- Typography -- //
+    font = JetBrainsMono Nerd Font 12
+    icon_path = /usr/share/icons/Adwaita/96x96/status/
+
+# // -- Icons -- //
+    icon_theme = Adwaita
+    max_icon_size = 96
+
+# // -- Behavior -- //
+    sort = true
+    indicate_hidden = true
+    shrink = false
+    alignment = center
+    sticky_history = true
+    history_length = 10
+    show_age_threshold = 60
+    word_wrap = true
+    ignore_newline = false
+    stack_duplicates = true
+    hide_duplicate_count = false
+
+# // -- Mouse Actions -- //
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = context
+
+# // -- External Commands -- //
+    dmenu = dunstify
+    browser = firefox
+
+# // -- Advanced -- //
+    scale = 0
+    enable_posix_regex = true
+
+# // -- Progress Bar -- //
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_corner_radius = 5
+
+# // -- Urgency: Low -- //
+
+[urgency_low]
+    background = "#222222"
+    foreground = "#8a8a8a"
+    highlight = "#8a8a8a"
+    frame_color = "#8a8a8a"
+    timeout = 3
+
+# // -- Urgency: Normal -- //
+
+[urgency_normal]
+    background = "#222222"
+    foreground = "#d0d0d0"
+    highlight = "#9a9a9a"
+    frame_color = "#9a9a9a"
+    timeout = 5
+
+# // -- Urgency: Critical -- //
+
+[urgency_critical]
+    background = "#222222"
+    foreground = "#e0e0e0"
+    highlight = "#e0e0e0"
+    frame_color = "#e0e0e0"
+    timeout = 0

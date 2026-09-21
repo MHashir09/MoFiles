@@ -1,0 +1,14 @@
+{
+    "id": "glance",
+    "name": "Glance Translate",
+    "description": "One-click text translation for your DankMaterialShell bar. Select any text, click the translate icon, and get an instant translation.",
+    "version": "1.0.0",
+    "author": "ChaoXu",
+    "type": "widget",
+    "capabilities": ["dankbar-widget"],
+    "component": "./GlanceWidget.qml",
+    "settings": "./GlanceSettings.qml",
+    "icon": "translate",
+    "dependencies": ["trans", "wl-clipboard"],
+    "permissions": ["settings_read", "settings_write"]
+}
